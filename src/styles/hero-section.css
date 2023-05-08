@@ -1,23 +1,23 @@
-.hero__content {
+.hero_content {
   padding-top: 70px;
 }
 
-.hero__title {
+.hero_title {
   font-size: 2.5rem;
   line-height: 55px;
 }
 
-.hero__title span {
+.hero_title span {
   color: #df2020;
 }
 
-.hero__content p {
+.hero_content p {
   font-size: 1rem;
   line-height: 30px;
   color: #777;
 }
 
-.hero__btns button {
+.hero_btns button {
   border: none;
   outline: none;
   padding: 7px 20px;
@@ -26,31 +26,31 @@
   font-weight: 600;
 }
 
-.order__btn {
+.order_btn {
   background: #df2020;
   color: #fff;
   transition: 0.3s;
 }
 
-.order__btn:hover {
+.order_btn:hover {
   background: #212245;
 }
-.all__foods-btn {
+.all_foods-btn {
   background: transparent;
   border: 1px solid #df2020 !important;
 }
 
-.all__foods-btn a {
+.all_foods-btn a {
   color: #df2020;
 }
 
-.hero__service p {
+.hero_service p {
   color: #212245;
   font-weight: 600;
   font-size: 0.9rem;
 }
 
-.shipping__icon i {
+.shipping_icon i {
   padding: 5px;
   background: #df2020;
   color: #fff;
