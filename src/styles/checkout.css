@@ -1,18 +1,18 @@
-.checkout__bill {
+.checkout_bill {
   background: #fde4e4;
   padding: 30px;
 }
 
-.checkout__total {
+.checkout_total {
   border-top: 1px solid #ddd;
   padding-top: 30px;
 }
 
 @media only screen and (max-width: 768px) {
-  .checkout__bill h6 {
+  .checkout_bill h6 {
     font-size: 0.9rem;
   }
-  .checkout__bill {
+  .checkout_bill {
     margin-top: 40px;
   }
 }

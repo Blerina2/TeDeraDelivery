@@ -37,7 +37,7 @@ const Footer = () => {
                 <h5 className="footer_title">Contact</h5>
                 <ListGroup>
                     <ListGroupItem className="delivery_time-item border-0 ps-0">
-                        <span>Locarion:Rruga B Prishtina, Kosovo</span>
+                        <span>Location:Rruga B Prishtina, Kosovo</span>
 
                     </ListGroupItem>
                     <ListGroupItem className="delivery_time-item border-0 ps-0">

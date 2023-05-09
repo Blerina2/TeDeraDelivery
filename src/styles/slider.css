@@ -1,10 +1,10 @@
-.review__text {
+.review_text {
   color: #777;
   line-height: 30px;
   margin: 40px 0px;
 }
 
-.slider__content img {
+.slider_content img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
@@ -12,17 +12,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .review__text {
+  .review_text {
     font-size: 0.8rem;
     margin: 20px 0px;
   }
 
-  .slider__content img {
+  .slider_content img {
     width: 35px;
     height: 35px;
   }
 
-  .slider__content h6 {
+  .slider_content h6 {
     font-size: 0.8rem;
   }
 }
