@@ -3,6 +3,9 @@ import {Container,Row,Col,ListGroup,ListGroupItem} from "reactstrap";
 import logo from "../../assets/images/res-logo.png";
 import '../../styles/footer.css';
 import {Link} from "react-router-dom";
+
+
+
 const Footer = () => {
     return <footer className={"footer"} >
 
@@ -63,7 +66,7 @@ const Footer = () => {
         </Row>
         <Row className="mt-5">
         <Col lg='6' md='6'>
-            <p className="copyright_text">Copyright-2023,webside made by Grupi23</p>
+            <p className="copyright_text">Webside made by Grupi23</p>
         </Col>
         <Col lg='6' md='6'>
             <div className="social_links d-flex align-items-center gap-4 justify-content-end">

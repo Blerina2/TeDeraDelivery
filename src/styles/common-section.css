@@ -1,5 +1,5 @@
 .common_section {
-  background: linear-gradient(#212245b2, #212245b2),
+  background: linear-gradient(rgba(46, 47, 87, 0.7), #212245b2),
     url("../assets/images/banner-02.jpg");
 
   background-repeat: no-repeat;
