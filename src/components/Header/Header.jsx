@@ -34,7 +34,7 @@ const Header = () => {
     const totalQuantity = useSelector((state) => state.cart.totalQuantity);
     const dispatch = useDispatch();
 
-    const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
+    const toggleMenu = () => menuRef.current.classList.toggle("show_menu");
 
     const toggleCart = () => {
         dispatch(cartUiActions.toggle());
@@ -46,9 +46,9 @@ const Header = () => {
                 document.body.scrollTop > 80 ||
                 document.documentElement.scrollTop > 80
             ) {
-                headerRef.current.classList.add("header__shrink");
+                headerRef.current.classList.add("header_shrink");
             } else {
-                headerRef.current.classList.remove("header__shrink");
+                headerRef.current.classList.remove("header_shrink");
             }
         });
 
@@ -58,10 +58,10 @@ const Header = () => {
     return (
         <header className="header" ref={headerRef}>
             <Container>
-                <div className="nav__wrapper d-flex align-items-center justify-content-between">
+                <div className="nav_wrapper d-flex align-items-center justify-content-between">
                     <div className="logo">
                         <img src={logo} alt="logo" />
-                        <h5>Tasty Treat</h5>
+                        <h5>TeDera</h5>
                     </div>
 
                     {/* ======= menu ======= */}
@@ -72,7 +72,7 @@ const Header = () => {
                                     to={item.path}
                                     key={index}
                                     className={(navClass) =>
-                                        navClass.isActive ? "active__menu" : ""
+                                        navClass.isActive ? "active_menu" : ""
                                     }
                                 >
                                     {item.display}
@@ -82,10 +82,10 @@ const Header = () => {
                     </div>
 
                     {/* ======== nav right icons ========= */}
-                    <div className="nav__right d-flex align-items-center gap-4">
-            <span className="cart__icon" onClick={toggleCart}>
+                    <div className="nav_right d-flex align-items-center gap-4">
+            <span className="cart_icon" onClick={toggleCart}>
               <i class="ri-shopping-basket-line"></i>
-              <span className="cart__badge">{totalQuantity}</span>
+              <span className="cart_badge">{totalQuantity}</span>
             </span>
 
                         <span className="user">
@@ -94,7 +94,7 @@ const Header = () => {
               </Link>
             </span>
 
-                        <span className="mobile__menu" onClick={toggleMenu}>
+                        <span className="mobile_menu" onClick={toggleMenu}>
               <i class="ri-menu-line"></i>
             </span>
                     </div>

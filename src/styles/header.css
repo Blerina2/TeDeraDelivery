@@ -32,23 +32,23 @@
   color: #df2020;
 }
 
-.active__menu {
+.active_menu {
   color: #df2020 !important;
 }
 
-.cart__icon i,
+.cart_icon i,
 .user i,
-.mobile__menu i {
+.mobile_menu i {
   font-size: 1.3rem;
   color: #212245;
   cursor: pointer;
 }
 
-.cart__icon {
+.cart_icon {
   position: relative;
 }
 
-.cart__badge {
+.cart_badge {
   position: absolute;
   top: 30px;
   right: -10px;
@@ -64,12 +64,12 @@
   justify-content: center;
 }
 
-.mobile__menu {
+.mobile_menu {
   font-weight: 600;
   display: none;
 }
 
-.header__shrink {
+.header_shrink {
   position: sticky;
   top: 0;
   left: 0;
@@ -116,17 +116,17 @@
     font-size: 0.9rem;
   }
 
-  .mobile__menu {
+  .mobile_menu {
     display: block;
   }
 
-  .cart__icon i,
+  .cart_icon i,
   .user i,
-  .mobile__menu i {
+  .mobile_menu i {
     font-size: 1rem;
   }
 
-  .show__menu {
+  .show_menu {
     display: block;
   }
 }
