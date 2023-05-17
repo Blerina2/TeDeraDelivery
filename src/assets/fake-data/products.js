@@ -23,11 +23,21 @@ import product_06_image_01 from "../images/bread(1).png";
 import product_06_image_02 from "../images/bread(2).png";
 import product_06_image_03 from "../images/bread(3).png";
 
+import product_07_image_01 from "../images/TomYumSoup2.png";
+import product_07_image_02 from "../images/TomYumSoup.png";
+import product_07_image_03 from "../images/TomYumSoup3.png";
+
+import product_08_image_01 from "../images/WontonKorean.png";
+import product_08_image_02 from "../images/WontonKorean2.png";
+import product_08_image_03 from "../images/WontonKorean3.png";
+
+
+
 const products = [
     {
         id: "01",
         title: "Chicken Burger",
-        price: 24.0,
+        price: 3.00,
         image01: product_01_image_01,
         image02: product_01_image_02,
         image03: product_01_image_03,
@@ -39,7 +49,7 @@ const products = [
     {
         id: "02",
         title: "Vegetarian Pizza",
-        price: 115.0,
+        price: 8.00,
         image01: product_02_image_01,
         image02: product_02_image_02,
         image03: product_02_image_03,
@@ -51,7 +61,7 @@ const products = [
     {
         id: "03",
         title: "Double Cheese Margherita",
-        price: 110.0,
+        price: 10.00,
         image01: product_03_image_01,
         image02: product_03_image_02,
         image03: product_03_image_03,
@@ -63,7 +73,7 @@ const products = [
     {
         id: "04",
         title: "Maxican Green Wave",
-        price: 110.0,
+        price: 12.00,
         image01: product_04_image_01,
         image02: product_04_image_02,
         image03: product_04_image_03,
@@ -75,7 +85,7 @@ const products = [
     {
         id: "05",
         title: "Cheese Burger",
-        price: 24.0,
+        price: 3.40,
         image01: product_05_image_01,
         image02: product_05_image_02,
         image03: product_05_image_03,
@@ -87,7 +97,7 @@ const products = [
     {
         id: "06",
         title: "Royal Cheese Burger",
-        price: 24.0,
+        price: 3.50,
         image01: product_01_image_01,
         image02: product_01_image_02,
         image03: product_01_image_03,
@@ -99,7 +109,7 @@ const products = [
     {
         id: "07",
         title: "Seafood Pizza",
-        price: 115.0,
+        price: 15.00,
         image01: product_02_image_02,
         image02: product_02_image_01,
         image03: product_02_image_03,
@@ -114,7 +124,7 @@ const products = [
     {
         id: "08",
         title: "Thin Cheese Pizza",
-        price: 110.0,
+        price: 9.00,
         image01: product_03_image_02,
         image02: product_03_image_01,
         image03: product_03_image_03,
@@ -126,7 +136,7 @@ const products = [
     {
         id: "09",
         title: "Pizza With Mushroom",
-        price: 110.0,
+        price: 10.00,
         image01: product_04_image_02,
         image02: product_04_image_01,
         image03: product_04_image_03,
@@ -138,7 +148,7 @@ const products = [
     {
         id: "10",
         title: "Classic Hamburger",
-        price: 24.0,
+        price: 2.00,
         image01: product_05_image_02,
         image02: product_05_image_01,
         image03: product_05_image_03,
@@ -150,7 +160,7 @@ const products = [
     {
         id: "11",
         title: "Crunchy Bread ",
-        price: 35.0,
+        price: 0.60,
         image01: product_06_image_01,
         image02: product_06_image_02,
         image03: product_06_image_03,
@@ -162,7 +172,7 @@ const products = [
     {
         id: "12",
         title: "Delicious Bread ",
-        price: 35.0,
+        price: 0.80,
         image01: product_06_image_02,
         image02: product_06_image_01,
         image03: product_06_image_03,
@@ -174,7 +184,7 @@ const products = [
     {
         id: "13",
         title: "Loaf Bread ",
-        price: 35.0,
+        price: 1.00,
         image01: product_06_image_03,
         image02: product_06_image_02,
         image03: product_06_image_03,
@@ -182,6 +192,30 @@ const products = [
 
         desc: "A loaf of bread is bread which has been shaped and baked in one piece.",
     },
+    {
+        id: "14",
+        title: "TomYumSoup ",
+        price: 6.00,
+        image01:product_07_image_01,
+        image02: product_07_image_02,
+        image03: product_07_image_03,
+        category: "Asian Food",
+
+        desc: "Tom Yum is a simple, but flavorful, soup made with fresh lemongrass, kaffir lime leaves, fish sauce, chiles, and protein… Usually shrimp.  ",
+    },
+
+    {
+        id: "15",
+        title: "Wonton Korean ",
+        price: 5.50,
+        image01:product_08_image_01,
+        image02: product_08_image_02,
+        image03: product_08_image_03,
+        category: "Asian Food",
+
+        desc: " These shallow-fried Korean wontons are juicy, crunchy pockets of cabbage, carrots, bean sprouts, and beef soaking in an Asian spice blend. ",
+    },
+
 ];
 
 export default products;

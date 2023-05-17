@@ -51,7 +51,7 @@ const Checkout = () => {
                            </div>
 
                             <div className="form_group">
-                               <input type="email" placeholder="Enter your nemail"
+                               <input type="email" placeholder="Enter your email"
                                       required onChange={e=>setEnterEmail(e.target.value)}/>
                            </div>
 
