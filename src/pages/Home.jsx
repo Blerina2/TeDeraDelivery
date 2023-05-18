@@ -99,7 +99,8 @@ const Home = () => {
 
                <div className="hero_btns d-flex align-items-center gap-5 mt-4">
                    <button className="order_btn d-flex align-items-center
-                   justify-content-between">Order now
+                   justify-content-between">
+                       <Link to='/foods'>Order now</Link>
                        <i className="ri-arrow-right-s-fill"></i></button>
                    <button className="all_foods-btn">
                        <Link to='/foods'>See all foods</Link>

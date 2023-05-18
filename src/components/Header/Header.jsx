@@ -61,7 +61,7 @@ const Header = () => {
                 <div className="nav_wrapper d-flex align-items-center justify-content-between">
                     <div className="logo">
                         <img src={logo} alt="logo" />
-                        <h5>TeDera</h5>
+                        <h5><Link to='/home'>TeDera</Link></h5>
                     </div>
 
                     {/* ======= menu ======= */}
