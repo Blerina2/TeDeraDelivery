@@ -319,15 +319,16 @@ const products = [
     }, {
         id: "22",
         title: "Qebapa",
-        price: 5.00,
+        price: 3.00,
         image01:product_15_image_01,
         image02: product_15_image_02,
         image03: product_15_image_03,
         category: "Albanian Food",
 
         desc: " \n" +
-            "If you're a fan of hearty stews and beans, Pasul is your go choice.It is typically made with white beans, meat (usually beef or pork), onions, garlic, and paprika." +
-            " Some variations also include tomatoes, peppers, and other vegetables.",
+            "Qebapa consists of small grilled sausages made from a mixture of ground meat seasoned with spices such as paprika, salt, and pepper, and formed into small cylindrical shapes." +
+            "The sausages are usually grilled until they are browned and crispy on the outside, but still juicy and tender on the inside. They are then served on a plate with a side of bread, " +
+            "often a type of Albanian flatbread called lepinja, and topped with diced onions and the yogurt sauce.",
     },
 
 ];
