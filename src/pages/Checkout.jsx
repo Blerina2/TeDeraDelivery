@@ -18,7 +18,7 @@ const Checkout = () => {
 
 
     const cartTotalAmount=useSelector(state => state.cart.totalAmount)
-    const shippingCost=30
+    const shippingCost=0.50
 
     const  totalAmount= cartTotalAmount+Number(shippingCost)
 
